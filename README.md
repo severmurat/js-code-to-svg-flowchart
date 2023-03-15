@@ -13,12 +13,11 @@ js2flowchart is a tool for generating beautiful SVG flowcharts&trade; from JavaS
 To get started install package from NPM
 > yarn add js2flowchart
 
-or try it right away at [codepen sample](https://codepen.io/Bogdan-Lyashenko/pen/XzmzNv), or play with the demo below.
 
-## [Demo](https://bogdan-lyashenko.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html)
-Check out live [**code editor**](https://bogdan-lyashenko.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html), paste your code and **download SVG file** of flowchart!
+## [Demo](https://severmurat.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html)
+Check out live [**code editor**](https://severmurat.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html), paste your code and **download SVG file** of flowchart!
 
-[<img src="/docs/live-editor/demo.gif" width="700">](https://bogdan-lyashenko.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html)
+[<img src="/docs/live-editor/demo.gif" width="700">](https://severmurat.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html)
 
 ### What does js2flowchart do?
 js2flowchart takes your JS code and returns SVG flowchart, works on client/server, support ES6.
@@ -151,7 +150,7 @@ const flowTree = flowTreeBuilder.build(code),
 const svg = shapesTree.print();//XML string
 ```
 
-See the example running [here](https://bogdan-lyashenko.github.io/js-code-to-svg-flowchart/docs/examples/default/index.html) or check out complete source code [of it](/docs/examples/default/index.html).
+See the example running [here](https://severmurat.github.io/js-code-to-svg-flowchart/docs/live-editor/index.html) or check out complete source code [of it](/docs/examples/default/index.html).
 
 #### Defined abstraction level
 
@@ -203,8 +202,6 @@ we need to instantiate ```flowTreeBuilder``` and assign abstraction level on it.
 Result:
 
 ![](/docs/examples/defined-abstraction-level/flowchart-image.png)
-
-See the example running [here](https://bogdan-lyashenko.github.io/js-code-to-svg-flowchart/docs/examples/defined-abstraction-level/index.html) or check out complete source code [of it](/docs/examples/defined-abstraction-level/index.html).
 
 **Custom abstraction level (label:advanced)**
 
