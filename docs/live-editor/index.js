@@ -1,4 +1,15 @@
 (function () {
+    
+    const {createFlowTreeBuilder, convertCodeToFlowTree, createSVGRender} = js2flowchart;
+    const svgRender = createSVGRender();
+
+    //applying another theme for render
+    svgRender.applyTheme({
+      common: {
+        maxNameLength: 180,
+      },
+    });
+
     const worker = new Worker('./worker.js'),
         svgImage = document.getElementById('svgImage'),
         downloadFile = document.getElementById('downloadFile'),
