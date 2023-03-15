@@ -1,5 +1,11 @@
 importScripts('../../dist/js2flowchart.js');
 
+const svgRender = js2flowchart.createSVGRender();
+svgRender.applyTheme({
+  common: {
+    maxNameLength: 120,
+  },
+
 self.onmessage = function(message) {
     const code = message.data.code;
     let svg = '',
